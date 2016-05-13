@@ -1,0 +1,103 @@
+body{
+	
+	background-image: url("../images/SM.jpg");
+	text-align: center;
+
+	font-family: 'Coming Soon', cursive;
+	font-size: 18pt;
+	font-weight: bolder;
+	color: black;
+
+}
+h1{
+	text-align: left;
+	font-family: 'pacificoregular' ;
+	color: white;
+	font-size: 1.25em;
+	-webkit-text-stroke: 2px black;
+	border-bottom: 3px solid gray;
+	text-shadow: 4px 4px #666699;
+}
+
+h2{
+	text-align: center;
+	background-color: navy;
+	font-family: 'pacificoregular' ;
+	color: white;
+	font-size: 60px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	margin: 0;
+
+
+	-webkit-text-stroke: 2px black;
+	border-bottom: 3px solid gray;
+	text-shadow: 4px 4px #666699;
+}
+
+
+}
+
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+background-color: navy;
+
+}
+
+li{
+display: inline-block;
+text-align: center;
+width: 19%;
+background-color: navy;
+padding: .5%;
+margin: 1%;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: red;
+	color: red;
+	width: 90%;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0, 2);
+	margin-top: 5%;
+	margin-bottom: 5%
+}
+
+.dropdown {
+	position: relative;
+}
+
+li {
+	color: black;
+	margin-top: 0%;
+	display: inline-block;
+	text-align: center;
+	width: 19%;
+	background-color: darkgray;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	padding-left: 1%;
+	padding-right: 1%
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+ 
+
+.mission {
+		background: rgba(0,0,255,0.3);
+		margin-left: 20%;
+		margin-right: 20%;
+		margin-top: 5%;
+		padding: 2%;
+		border: solid 6px black;
+		font-family: Carrington;
+		color: white;
+		font-size: 25px;
+}
+
+

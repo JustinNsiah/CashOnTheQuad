@@ -92,6 +92,13 @@ li {
 	display: block;
 }
  
+ #loc {
+ 	background-color: lime;
+ }
+
+ #cap {
+ 	background-color: lime
+ }
 
 .mission {
 		background: rgba(0,0,255,0.3);
@@ -105,4 +112,27 @@ li {
 		font-size: 25px;
 }
 
-.caj{}
+form {
+    font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    background: rgba(0,0,255,0.3);
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	padding: 2%;		
+	border: dotted 6px black;
+}
+
+p{
+	font-family: 'PT Sans Narrow', cursive;
+	color: black;
+	margin-left: 25%;
+	margin-right: 50%;
+	background-color: rgba( 255, 255, 0, 0.5);
+}
+
+#messages {
+    font-size: 14px;
+	font-family: Garamond, Times, Serif;
+}
